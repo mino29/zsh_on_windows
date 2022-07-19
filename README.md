@@ -69,8 +69,8 @@ It does require a bit of workaround, but I think it's worth it.
 
 8. More plugins
 	To make zsh more functional, let's install two essential plugins: zsh-autosuggestions, zsh-syntaxhighlighting
-	```git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions```
-	```git clone git://github.com/zsh-users/zsh-syntax-highlighting $ZSH_CUSTOM/plugins/zsh-syntax-highlighting```
+	```git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+	git clone git://github.com/zsh-users/zsh-syntax-highlighting $ZSH_CUSTOM/plugins/zsh-syntax-highlighting```
 
 	Then edit your .zshrc with:
 
@@ -78,7 +78,7 @@ It does require a bit of workaround, but I think it's worth it.
 
 	find the line where "plugins=" is, write the following:
 
-	```plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+	```plugins=(git zsh-autosuggestions zsh-syntax-highlighting)```
 
 	You can add more plugins later, just keep in mind the more plugins you add
 	in, the slower zsh will get.
