@@ -88,9 +88,11 @@ It does require a bit of workaround, but I think it's worth it.
 	(and the most popular one) is called powerlevel10k, it's fast and very much
 	polished. Here's how to install it:
 
-	```git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git ~/powerlevel10k
+	```
+	git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git ~/powerlevel10k
 	echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
-	source ~/.zshrc```
+	source ~/.zshrc
+	```
 
 	The code above will automatically start your configure process, if you're not
 	happy with what you end up with, you can always:
@@ -110,10 +112,12 @@ It does require a bit of workaround, but I think it's worth it.
 	I just type "v" to initiate it. So if you are lazy like me, you can copy
 	my following code and add to your .zshrc:
 
-	```alias py="python" 
+	```
+	alias py="python"
 	alias v="nvim" 
 	alias vi="nvim" 
-	alias vim="nvim"``` 
+	alias vim="nvim"
+	``` 
 
 	You can certainly do more with these alias, but you get the basic idea, just
 	don't go too crazy with alias in the beginning.
