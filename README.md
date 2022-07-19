@@ -42,16 +42,20 @@ It does require a bit of workaround, but I think it's worth it.
 6. bash to zsh
 	Edit your .bashrc with your text editor of choice (or just copy the following in your bash)
 
-	```notepad ~/.bashrc```
+	```
+	notepad ~/.bashrc
+	```
 
 	notepad is the easiest one.
 	
 	copy the following to .bashrc
 
+	```
 	# Launch Zsh
 	if [ -t 1 ]; then
 	exec zsh
 	fi
+	```
 
 	After that, save and close. Reopen bash, you should be able to automatically open zsh.
 	You can type in:
