@@ -15,7 +15,7 @@ It does require a bit of workaround, but I think it's worth it.
 1. Terminal emulator - Windows Terminal
 	You should get windows terminal for this first, since bash/zsh will be running on
 	this, it's also the most beautiful and customisable one on windows rightnow. I'm
-	full aware of the existance of Alacritty, but it's quit difficult to set it up
+	fully aware of the existance of Alacritty, but it's quit difficult to set it up
 	for beginners.
 
 	I prefer to install it with winget:
@@ -40,7 +40,7 @@ It does require a bit of workaround, but I think it's worth it.
 	it will replace some of the files in that directory. Don't worry, it's all part of the process.
 
 6. bash to zsh
-	Edit you .bashrc with your text editor of choice (or just copy the following in your bash)
+	Edit your .bashrc with your text editor of choice (or just copy the following in your bash)
 
 	```notepad ~/.bashrc```
 
