@@ -65,7 +65,7 @@ It does require a bit of workaround, but I think it's worth it.
 	```sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
 
 	use the following if you live in mainland China:
-	REMOTE=https://gitee.com/mirrors/oh-my-zsh.git sh -c "$(wget https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh -O -)"
+	```REMOTE=https://gitee.com/mirrors/oh-my-zsh.git sh -c "$(wget https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh -O -)"```
 
 8. More plugins
 	To make zsh more functional, let's install two essential plugins: zsh-autosuggestions, zsh-syntaxhighlighting
