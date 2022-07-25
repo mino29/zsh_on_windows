@@ -98,7 +98,7 @@ It does require a bit of workaround, but I think it's worth it.
 	in, the slower zsh will get.
 
 9. Theme:
-	oh-my-zsh comes with a lot of themes built-in, but the my favorite one
+	oh-my-zsh comes with a lot of themes built-in, but my favorite one
 	(and the most popular one) is called powerlevel10k, it's fast and very much
 	polished. Here's how to install it:
 
